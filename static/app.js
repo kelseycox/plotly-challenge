@@ -62,12 +62,7 @@ function buildPlots(id) {
           tickmode: "linear"
         },
         bargap: 0.2
-        // margin: {
-        //   t:
-        //   l:
-        //   r:
-        //   b:
-        // }
+  
       };
         
       // Plot the chart to a div tag with id "bar"
@@ -87,7 +82,6 @@ function buildPlots(id) {
           color: samples.otu_ids,
           colorscale: "Earth",
           sizeref: 2.0 * Math.max(samples.sample_values) / (40**2),
-          // sizemode: 'area',
           sizemin: 5
         }
       };
