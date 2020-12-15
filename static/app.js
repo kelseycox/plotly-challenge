@@ -179,7 +179,7 @@ function buildPlots(id) {
   
   // create the function for the change event
   function optionChanged(id) {
-    chartPlots(id);
+    buildPlots(id);
     getData(id);
   }
   
